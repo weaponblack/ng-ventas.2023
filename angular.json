@@ -25,9 +25,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/materialize-css/dist/css/materialize.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-css/dist/js/materialize.js",
+              "src/assets/js/funcionesM.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0052e969-06ea-49e4-9276-24570d2988a4"
   }
 }
